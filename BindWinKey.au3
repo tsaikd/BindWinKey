@@ -58,6 +58,7 @@ Func _Quit()
 EndFunc
 
 HotKeySet("#q", "_Monitor_Toggle")
+HotKeySet("#s", "_Monitor_ON")
 HotKeySet("#{Esc}", "_Quit")
 
 While 1
